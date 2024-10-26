@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <form id="formulario">
+        <input type="text" placeholder="Ingresar productos" id="nombre">
+        <input type="number" placeholder="Cantidad" id="cantidad">
+        <input type="number" placeholder="Precio" id="precio">
+        <select name="" id="categoria">
+            <option value="">Selecciona la categoria</option>
+            <option value="verdura">Verduras</option>
+            <option value="frutas">Frutas</option>
+            <option value="salsa">Salsa</option>
+        </select>
+        <button type="submit">Enviar</button>
+    </form>
+    <table border="1">
+        <tr>
+            <th>Fecha</th>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Categoria</th>
+        </tr>
+        <tbody id="Datos">
+
+        </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
