@@ -42,7 +42,6 @@ $(document).ready(function () {
   }
   $("#Datos").on("click" , ".btn-delete" , function(){
     let indice = $(this).data("id")
-    console.log(indice)
     eliminarDato(indice)
   })
 
